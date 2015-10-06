@@ -1,7 +1,0 @@
-#!/usr/bin/python2
-import requests
-
-urls['salty'] = 'http://www.saltybet.com/'
-urls['login'] = urls['salty'] + 'authenticate'
-urls['state'] = urls['salty'] + 'state.json'
-urls['zdata'] = urls['salty'] + 'zdata.json'
