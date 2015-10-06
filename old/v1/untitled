@@ -1,0 +1,17 @@
+
+
+import Tkinter
+
+class Salty(Tkinter.tk):
+	def __init__(self,parent):
+		Tkinter.Tk.__init__(self,parent)
+		self.parent = parent
+		self.initialize_gui()
+
+	def initialize_gui(self):
+		pass
+
+if __name__ == "__main__":
+	app = Salty(None)
+	app.title('Salty')
+	app.mainLoop()
